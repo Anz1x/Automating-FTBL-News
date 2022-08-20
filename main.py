@@ -32,6 +32,6 @@ csv_dict = {"Title":titles,
            "Link":links}
 
 df_headline = pd.DataFrame(csv_dict)
-df_headline.to_csv("ftb_headlines.csv")
+df_headline.to_csv("ftbl_headlines.csv")
 
 driver.quit()
